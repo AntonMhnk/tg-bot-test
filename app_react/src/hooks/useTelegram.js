@@ -10,6 +10,8 @@ function useTelegram() {
 		tg,
 		user: tg.initDataUnsafe?.user,
 		queryId: tg.initDataUnsafe?.query_id,
+		receiver: tg.initDataUnsafe?.receiver,
+		isFullscreen: true,
 	};
 }
 
