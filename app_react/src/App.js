@@ -16,6 +16,8 @@ function App() {
 	return (
 		<div className="App">
 			<Header onClose={onClose} />
+			<Header onClose={onClose} />
+			<Header onClose={onClose} />
 		</div>
 	);
 }
